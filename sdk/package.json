@@ -1,0 +1,22 @@
+{
+  "name": "react-native-sentinelflag",
+  "version": "0.1.0",
+  "description": "On-device sensitive data classification for React Native — zero network, privacy-by-design",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["react-native", "privacy", "on-device-ai", "onnx", "classification", "pii", "gdpr"],
+  "author": "Kiran Kumar S",
+  "license": "MIT",
+  "dependencies": {
+    "onnxruntime-react-native": "^1.16.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.71.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.0.0"
+  }
+}

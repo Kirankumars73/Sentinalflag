@@ -1,0 +1,20 @@
+{
+  "fp32": {
+    "size_mb": 267.97,
+    "accuracy": 1.0,
+    "avg_ms": 31.6
+  },
+  "int8": {
+    "size_mb": 67.4,
+    "accuracy": 1.0,
+    "avg_ms": 19.46
+  },
+  "label_names": [
+    "non-sensitive",
+    "PII",
+    "financial",
+    "health",
+    "location"
+  ],
+  "production_model": "sentinelflag_int8.onnx"
+}
